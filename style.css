@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: Helvetica;
+    font-weight: 100;
+    margin: 1em 0.5em;
+}
+
+header, footer {
+    width: 100%;
+}
+
+.site-body {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 100%;
+}
+
+.image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 1px;
+}
+
+.label {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.label h2 {
+    margin: 0;
+}
+
+.image_background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
